@@ -1,18 +1,23 @@
 /* inika-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Inika';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/inika-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/inika-v21-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* inika-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Inika';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/inika-v21-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/inika-v21-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* inter-regular - latin */
@@ -65,6 +70,8 @@ img {
   margin: 0 auto;
 }
 
+/* header start */
+
 .header {
   width: 100%;
 }
@@ -74,7 +81,7 @@ img {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
-  padding-top: 42px;
+  padding: 42px 0;
 }
 
 .header__logo {
@@ -111,3 +118,60 @@ img {
   color: #E06733;
   opacity: .75;
 }
+
+/* header end */
+
+/* welcome start */
+
+.welcome__wrapper {
+  padding: 62px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.welcome__img {
+  text-align: center;
+  align-self: center;
+
+}
+
+.welcome__info {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  max-width: 550px;
+}
+
+.welcome__header {
+  margin-bottom: 42px;
+  color: #717171;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.welcome__color-text {
+  color: #499A18;
+}
+
+.welcome__text {
+  margin-bottom: 48px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.welcome__button {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 10px;
+  border: 2px solid #E06733;
+  background: rgba(224, 103, 51, 0.00);
+  padding: 14px 27px;
+  text-transform: uppercase;
+}
+
+/* welcome end */
