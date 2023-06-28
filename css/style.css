@@ -270,19 +270,34 @@ img {
 .service__cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 116px 55px;
+  gap: 55px 116px;
   padding-top: 90px;
 }
 
 .service__card {
   display: flex;
+  flex-direction: column;
   grid-column: span 2;
 }
 
 .service__card-pic {
-  position: relative;
-  margin-bottom: 10px;
+  /* position: relative; */
 }
+
+.service__card-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  border: 1px solid #E3E1D5;
+}
+
 
 
 /* service end */
