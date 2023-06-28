@@ -280,10 +280,6 @@ img {
   grid-column: span 2;
 }
 
-.service__card-pic {
-  /* position: relative; */
-}
-
 .service__card-stats {
   display: flex;
   flex-wrap: wrap;
@@ -298,6 +294,20 @@ img {
   border: 1px solid #E3E1D5;
 }
 
+.service__card-header {
+  color: #E06733;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-top: 10px;
+}
 
+.service__card-text {
+  color: #717171;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 36px;
+}
 
 /* service end */
