@@ -1,0 +1,355 @@
+/* inika-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inika-v21-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inika-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inika-v21-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v12-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1222px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+/* header start */
+
+.header {
+  width: 100%;
+  background: #EDF2EC;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 42px 0;
+}
+
+.header__logo {
+  text-align: center;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__item {
+  margin-right: 46px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__link {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  color: #010201;
+  text-decoration: none;
+}
+
+.header__link:hover,
+.header__link:active,
+.header__link:focus {
+  color: #E06733;
+  opacity: .75;
+  cursor: pointer;
+}
+
+/* header end */
+
+/* welcome start */
+
+.welcome {
+  background: #EDF2EC;
+}
+
+.welcome__wrapper {
+  padding: 62px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  align-items: center;
+}
+
+.welcome__info {
+  max-width: 550px;
+}
+
+.welcome__header {
+  margin-bottom: 42px;
+  color: #717171;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.welcome__color-text {
+  color: #499A18;
+}
+
+.welcome__text {
+  margin-bottom: 48px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.welcome__button {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 10px;
+  border: 2px solid #E06733;
+  background: rgba(224, 103, 51, 0.00);
+  padding: 14px 27px;
+  text-transform: uppercase;
+}
+
+.welcome__button:hover,
+.welcome__button:active,
+.welcome__button:focus {
+  color: #E06733;
+  opacity: .75;
+  cursor: pointer;
+}
+
+/* welcome end */
+
+/* about start */
+
+.about {
+  background: #FFFFFF;
+}
+
+.about__wrapper {
+  padding: 93px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  align-items: center;
+}
+
+.about__info {
+  max-width: 605px;
+}
+
+.about__header {
+  color: #499A18;
+  font-size: 40px;
+  font-family: 'Inika';
+  line-height: 50px;
+  margin-bottom: 40px;
+  max-width: 463px;
+}
+
+.about__color-text {
+  color: #E06733;
+}
+
+.about__text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* about end */
+
+/* service start */
+
+.service {
+  background: #EDF2EC;
+}
+
+.service__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 40px 0 121px;
+}
+
+.service__buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service__title {
+  max-width: 306px;
+  margin-right: 142px;
+  color: #499A18;
+  font-size: 40px;
+  font-family: 'Inika';
+}
+
+.service__button {
+  margin-right: 38px;
+  color: #E06733;
+  font-size: 20px;
+  font-family: 'Inika';
+  padding: 12px 54px;
+  border-radius: 5px;
+  border: 1px solid #E06733;
+}
+
+.service__button:last-child {
+  margin-right: 0;
+}
+
+.service__button:hover,
+.service__button:active,
+.service__button:focus {
+  color: black;
+  opacity: .75;
+  cursor: pointer;
+}
+
+.service__cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 55px 116px;
+  padding-top: 90px;
+}
+
+.service__card {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 2;
+}
+
+.service__card-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  border: 1px solid #E3E1D5;
+}
+
+.service__card-header {
+  color: #E06733;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-top: 10px;
+}
+
+.service__card-text {
+  color: #717171;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 36px;
+}
+
+/* service end */
+
+/* prices start */
+
+.prices__wrapper {
+  padding: 40px 0 115px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 438px;
+}
+
+.prices__header-1 {
+  font-family: 'Inter';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.prices__option {
+  color: #000;
+  font-size: 20px;
+  font-family: 'Inter';
+  font-weight: 700;
+  line-height: 20px;
+}
+
+
+.prices__header-2 {
+  color: #000;
+  text-align: right;
+  font-size: 40px;
+  font-family: 'Inter';
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.prices__color-text {
+  color: #499A18;
+}
+
+/* prices end */
